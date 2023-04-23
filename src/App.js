@@ -1,10 +1,24 @@
 import React from 'react';
 import './index.css';
+import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
+import ForgotPassword from './Components/ForgotPassword';
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   return (
     <div className="bg-gray-100 h-screen flex justify-center items-center">
-      <h1 className="text-5xl font-bold text-gray-800 ">Hello, Tailwind!</h1>
+
+<Router>
+<Routes>
+     <Route path='/login' element={< Login/> } />
+     <Route path='/signup' element={< Signup /> } />
+     <Route path='/forgotpassword' element={< ForgotPassword /> } />
+
+  
+     </Routes>
+</Router>
     </div>
   );
 }
