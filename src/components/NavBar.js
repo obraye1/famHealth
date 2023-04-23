@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import Hero from './Hero';
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handeleClick = () => setNav(!nav);
@@ -17,13 +18,15 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
-          <button className="border-none bg-transparent text-black mr-4 ">
-            Login
-          </button>
-          <button className="px-8 py-2">Sign In</button>
+         
+          <button className="px-8 py-2">  <a
+                            class=""
+                            href="/login"
+                        >
+                           Login
+                        </a>    </button>
         </div>
         <div className="md:hidden" onClick={handeleClick}>
-          {!nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
         </div>
       </div>
       <ul
@@ -38,11 +41,18 @@ const NavBar = () => {
         <li className="border-b-2 border-zinc-300 w-full">Support</li>
         <div className="flex flex-col my-4">
           <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4 ">
-            Login
-          </button>
-          <button className="px-8 py-3 ">Sign up</button>
+          <a
+                            class=""
+                            href="/login"
+                        >
+                           Login
+                        </a>          </button>
+          <button className="px-8 py-3 ">
+          <a className="underline" href="/signup"> Sign up</a>
+</button>
         </div>
       </ul>
+      <Hero />
     </div>
   );
 };
