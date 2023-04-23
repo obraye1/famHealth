@@ -5,10 +5,13 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import ForgotPassword from './Components/ForgotPassword';
 import { ToastContainer, toast } from 'react-toastify';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
     <div className="bg-gray-100 h-screen flex justify-center items-center">
+      <NavBar />
 
 <Router>
 <Routes>
@@ -20,7 +23,5 @@ function App() {
      </Routes>
 </Router>
     </div>
-  );
-}
-
-export default App;
+  )}
+export default App
