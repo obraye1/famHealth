@@ -1,11 +1,11 @@
-import Hero from './components/Hero';
-import NavBar from './components/NavBar';
+// import Hero from './pages/Hero';
 
+import Dashborad from './pages/Dashborad';
 
 function App() {
   return (
     <div>
-      <Hero />
+      <Dashborad />
     </div>
   );
 }

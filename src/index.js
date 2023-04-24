@@ -4,11 +4,16 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Login from './pages/Login';
-import Signup from "./pages/signup";
+import Signup from './pages/signup';
+import Hero from './pages/Hero';
 
 const router = createBrowserRouter([
   {
     path: '/',
+    element: <Hero />,
+  },
+  {
+    path: 'dash',
     element: <App />,
   },
   {
