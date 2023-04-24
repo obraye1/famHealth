@@ -1,6 +1,7 @@
 import React from 'react';
 import bgimg from '../assets/docs.jpg';
 import MainLayout from '../layouts/MainLayout';
+import Support from './Support';
 const Hero = () => {
   return (
     <MainLayout>
@@ -25,6 +26,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <Support />
     </MainLayout>
   );
 };

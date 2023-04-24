@@ -6,7 +6,6 @@ import App from './App';
 import Login from './pages/Login';
 import Signup from './pages/signup';
 import Hero from './pages/Hero';
-
 const router = createBrowserRouter([
   {
     path: '/',
