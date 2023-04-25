@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div class="bg-zinc-300">
-    <div class="max-w-2xl mx-auto text-yellow-800 py-10">
+    <div class="max-w-2xl mx-auto text-indigo-950 py-10">
         <div class="text-center">
             <h3 class="text-3xl mb-3"> FamHealth healthy living </h3>
             <p> Achieve wellness and a healthy, fulfilling lifestyle. </p>

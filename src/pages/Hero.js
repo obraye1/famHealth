@@ -2,6 +2,7 @@ import React from 'react';
 import bgimg from '../assets/docs.jpg';
 import MainLayout from '../layouts/MainLayout';
 import Support from './Support';
+import ProfileCard from '../components/cards/ProfileCard';
 const Hero = () => {
   return (
     <MainLayout>
@@ -26,6 +27,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <ProfileCard />
       <Support />
     </MainLayout>
   );
