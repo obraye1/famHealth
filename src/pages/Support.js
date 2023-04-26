@@ -1,5 +1,5 @@
 import React, {  useRef } from "react";
-import PageTitle from "../layouts/PageTitle";
+import PageTitle from "./PageTitle";
 import emailjs from "emailjs-com";
 
 function Support() {

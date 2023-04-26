@@ -13,7 +13,7 @@ function ProfileCard() {
   const handleOpen = () => setOpen(!open);
   return (
 <div className="py-20 bg-gray-50 overflow-hidden">
-    <div className="mx-auto w-full px-4 text-center px-6 space-y-8 text-indigo-600 md:px-15">
+    <div className="mx-auto w-full px-4 text-center space-y-8 text-indigo-600 md:px-15">
         <div>
             <span className="text-indigo-600 text-center text-lg font-semibold">Services Offered</span>
         </div>
@@ -27,7 +27,7 @@ function ProfileCard() {
                         <p className="text-sm text-gray-600">Experience exceptional dental care at our state-of-the-art hospital. Our team of skilled dentists and hygienists offer a wide range of services including cleanings, fillings, and implants. 
                         Enjoy a comfortable and relaxing environment while we provide top-quality care for your oral health. Book your appointment today!</p>
                     </div>
-                    <a href="#" className="flex justify-between items-center group-hover:text-indigo-600">
+                    <a href="/" className="flex justify-between items-center group-hover:text-indigo-600">
                         
                     <Dialog open={open} handler={handleOpen} className="flex flex-row h-full items-center w-full ">
                     <img src="/images/dental.jpg" className="rounded-full p-6" width="612" height="612" alt="Dental"/>
@@ -59,7 +59,7 @@ We are dedicated to providing you and your family with the highest level of dent
          <div class="group flex relative">
          <a href='/'>Back</a>  
                 
-    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500 px-1 text-sm rounded-md absolute left-1/2 
+    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500  rounded-md absolute left-1/2 
     -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Go Back</span>
 </div>     
             </Button>
@@ -109,7 +109,7 @@ We are dedicated to providing you and your family with the highest level of dent
                         <p className="text-sm text-gray-600">Trust our experienced team of cardiologists to provide the highest quality care for your heart. Our hospital is equipped with the latest technology and treatments to diagnose and manage heart disease. From lifestyle changes to advanced surgical procedures,
                          we offer comprehensive care tailored to your individual needs. Contact us to schedule your appointment today.</p>
                     </div>
-                    <a href="#" className="flex justify-between items-center group-hover:text-indigo-600">
+                    <a href="/" className="flex justify-between items-center group-hover:text-indigo-600">
 
                     <Dialog open={open} handler={handleOpen} className="flex flex-row h-full items-center w-full ">
                     <img src="/images/heartat.jpg" className="rounded-full p-6" width="612" height="612" alt="Dental"/>
@@ -145,7 +145,7 @@ If you or a loved one has been diagnosed with heart disease, we are here to help
          <div class="group flex relative">
          <a href='/'>Back</a>  
                 
-    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500 px-1 text-sm rounded-md absolute left-1/2 
+    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500  rounded-md absolute left-1/2 
     -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Go Back</span>
 </div>     
             </Button>
@@ -193,7 +193,7 @@ If you or a loved one has been diagnosed with heart disease, we are here to help
                         <p className="text-sm text-gray-600">When every second counts, trust our hospital's experienced team to provide rapid and effective emergency heart care. 
                         Our state-of-the-art facility and specialized cardiac team offer round-the-clock care for heart attacks, strokes, and other life-threatening conditions. Don't wait, call 911 and request to be taken to our hospital for immediate treatment.</p>
                     </div>
-                    <a href="#" className="flex justify-between items-center group-hover:text-indigo-600">
+                    <a href="/" className="flex justify-between items-center group-hover:text-indigo-600">
 
                     <Dialog open={open} handler={handleOpen} className="flex flex-row h-full items-center w-full ">
                     <img src="/images/emer.jpg" className="rounded-full p-6" width="612" height="612" alt="Dental"/>
@@ -227,7 +227,7 @@ If you or a loved one is experiencing a medical emergency, don't hesitate to con
          <div class="group flex relative">
          <a href='/'>Back</a>  
                 
-    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500 px-1 text-sm rounded-md absolute left-1/2 
+    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500  rounded-md absolute left-1/2 
     -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Go Back</span>
 </div>     
             </Button>
@@ -277,7 +277,7 @@ If you or a loved one is experiencing a medical emergency, don't hesitate to con
                             Clear vision is essential for a fulfilling life, and we are here to help you achieve it. Our skilled ophthalmologists provide a wide range of services, from routine eye exams to complex surgeries. With the latest technology and personalized care,
                          we are committed to helping you maintain healthy eyesight. Schedule your appointment today.</p>
                     </div>
-                    <a href="#" className="flex justify-between items-center group-hover:text-indigo-600">
+                    <a href="/" className="flex justify-between items-center group-hover:text-indigo-600">
 
                     <Dialog open={open} handler={handleOpen} className="flex flex-row h-full items-center w-full ">
                     <img src="/images/oph.jpg" className="rounded-full p-6" width="612" height="612" alt="Dental"/>
@@ -311,7 +311,7 @@ If you are experiencing any issues with your vision or are due for a routine eye
          <div class="group flex relative">
          <a href='/'>Back</a>  
                 
-    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500 px-1 text-sm rounded-md absolute left-1/2 
+    <span class="group-hover:opacity-100 transition-opacity bg-zinc-300 px-1 text-sm text-indigo-500  rounded-md absolute left-1/2 
     -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Go Back</span>
 </div>     
             </Button>
