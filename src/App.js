@@ -1,11 +1,13 @@
 // import Hero from './pages/Hero';
 
-import Dashborad from './pages/Dashborad';
+import Main from "./components/Dashborad/Main";
+
 
 function App() {
   return (
     <div>
-      <Dashborad />
+      <Main />
+
     </div>
   );
 }
